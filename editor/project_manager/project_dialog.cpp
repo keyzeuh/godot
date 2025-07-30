@@ -1078,7 +1078,7 @@ ProjectDialog::ProjectDialog() {
 	rs_button->set_button_group(renderer_button_group);
 	rs_button->set_text(TTRC("Compatibility"));
 
-	ri_link->set_text("More information");
+	ri_link->set_text(TTRC("More information"));
 	ri_link->set_uri("https://docs.godotengine.org/en/stable/tutorials/rendering/renderers.html");
 	ri_link->set_h_size_flags(Control::SIZE_SHRINK_CENTER);
 #if !defined(GLES3_ENABLED)
